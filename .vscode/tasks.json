@@ -1,0 +1,27 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "command": "bash",
+    "tasks": [
+        {
+            "label": "make project",    // this is the name we use on launch.json
+            "type": "shell",            // determines that this task is a "shell" aka terminal task
+            "command": "",              
+            "args": [                   // the args is like executing "make --directory=${workspaceFolder}"
+                "make",                 // directory changes the directory before reading the make. it is required given the file strucutre
+                "--directory=${workspaceFolder};",
+            ],
+            "group":  {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal":"always",
+                "clear": true,
+                "echo": true
+            },
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
