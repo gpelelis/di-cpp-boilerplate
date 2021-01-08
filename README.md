@@ -1,5 +1,8 @@
 # Σχετικά με αυτό το repository
-Αυτό το repository έχει δημιουργηθεί ώστε να χρησιμοποιείται ως βάση για projects c/cpp του τμήματος Πληροφορικής και Τηλεπικοινωνιών. Δεδομένου οτι η καλή οργάνωση κώδικα σε αρχεία/φακέλους και το makefile θεωρούνται απαραίτητα για μια θετική αξιολόγηση, αυτό το repository περιλαμβάνει ένα ενδεικτικό structure και ένα makefile που δουλεύει out of the box.
+Αυτό το repository έχει δημιουργηθεί ώστε να χρησιμοποιείται ως βάση για projects c/cpp του τμήματος Πληροφορικής και Τηλεπικοινωνιών. Αυτό το boilerplate πρακτικά βοηθάει σε:
+- directory organising (ξεχωριστα cpp, includes, object files, κτλ)
+- makefile template (makefile που παίζει ανάλογα τα αρχεία που έχουμε στους φακέλου)
+- default options για vscode/debuging (ρυθμίσεις ώστε να μπορούμε να κάνουμε build/debug μέσα από το vscode)
 
 # Βήματα για το πώς να χρησιμοποιήσω αυτό το repository
 1. Κάνω clone, fork ή download τοπικά
