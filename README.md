@@ -16,7 +16,7 @@
 1. Προσθήκη hpp file στο include. (πχ προσθήκη ./include/hash.hpp)
 2. Προσθήκη του hpp file στο makefile (στη γραμμή 10 προσθέτουμε το όνομα του αρχείου, πχ από "_DEPS = stuff.hpp" θα γίνει "_DEPS = stuff.hpp hash.hpp") 
 3. Προσθήκη cpp file στο src. (πχ προσθήκη ./src/hash.cpp)
-4. Προσθήκη του παραγόμενου object file στο makefile (στη γραμμή 10 προσθέτουμε το όνομα του αρχείου, πχ από "_OBJS = main.o stuff.o" θα γίνει "_OBJS = main.o stuff.o hash.o") 
+4. Προσθήκη του παραγόμενου object file στο makefile (στη γραμμή 19 προσθέτουμε το όνομα του αρχείου, πχ από "_OBJS = main.o stuff.o" θα γίνει "_OBJS = main.o stuff.o hash.o") 
 
 ---
 # Χρήσιμα
